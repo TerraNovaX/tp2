@@ -37,7 +37,7 @@ variable "sync_directories" {
   }))
   description = "List of directories to synchronize with Amazon S3."
   default     = [{
-  local_source_directory = "../front/dist"
+  local_source_directory = "../react-iim/dist"
   s3_target_directory    = ""
 }]
 }
