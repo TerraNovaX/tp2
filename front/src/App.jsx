@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from '../../.github/workflow/front/node_modules/@types/react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
