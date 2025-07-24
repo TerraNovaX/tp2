@@ -1,3 +1,5 @@
+name: deploy with terraform
+
 on: push
 
 permissions:

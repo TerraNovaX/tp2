@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "terraform-backend-terraformbackends3bucket-2sq6pvc6m1xd"
+    bucket         = "terraform-backend-terraformbackends3bucket-ldfdhz4ilmzg"
     key            = "infra/terraform.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "terraform-backend-TerraformBackendDynamoDBTable-17FOOQH8S5SFQ"
+    dynamodb_table = "terraform-backend-TerraformBackendDynamoDBTable-B16JHQR2UCO"
   }
 }
 provider "aws" {
